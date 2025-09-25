@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="Mir'Ia Tu Espejo Inteligente" />
+  <meta name="keywords" content="espejo inteligente, cuidado facial, Ia, rutina facial" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mir'Ia</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background-color: #fdfdfd;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(90deg, #c0b5d9, #9c93e9, #b097ce);
+      padding: 20px;
+      color: #fff;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    header .logo {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    header .Espejo inteligente {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      font-family: cursive;
+      margin: 0;
+    }
+
+    header h3 {
+      font-size: 1.1em;
+      font-family: cursive;
+      margin-top: 5px;
+    }
+
+    header img {
+      width: 90px;
+      border-radius: 50%;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      background-color: #eee;
+      padding: 10px 0;
+      margin-top: 15px;
+      border-radius: 10px;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+      position: relative;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #7a57d1;
+    }
+
+    nav ul li ul {
+      display: none;
+      position: absolute;
+      background-color: #fff;
+      top: 30px;
+      left: 0;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      border-radius: 8px;
+      overflow: hidden;
+      min-width: 180px;
+    }
+
+    nav ul li:hover ul {
+      display: block;
+    }
+
+    nav ul li ul li {
+      padding: 10px;
+      border-bottom: 1px solid #eee;
+    }
+
+    nav ul li ul li:last-child {
+      border-bottom: none;
+    }
+
+    nav ul li ul li a {
+      color: #555;
+      font-weight: normal;
+    }
+
+    section {
+      padding: 3rem 10%;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    section h2 {
+      color: #7a57d1;
+      margin-bottom: 1rem;
+      font-size: 1.8em;
+    }
+
+    section p, section ul li {
+      margin-bottom: 1rem;
+      font-size: 1.1em;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background: #c0b5d9;
+      color: #fff;
+      text-align: center;
+      padding: 2rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <div>
+        <h1>Mir'Ia</h1>
+        <h3>Un reflejo inteligente de tu belleza</h3>
+      </div>
+      <img src="Logo.png" alt="Logo Mir'Ia">
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+    
+        <li>
+          <a href="#conocenos">Conócenos</a>
+          <ul>
+            <li><a href="#quees">¿Qué es Mir’IA?</a></li>
+            <li><a href="#mision">Misión</a></li>
+            <li><a href="#vision">Visión</a></li>
+            <li><a href="#avatar">Avatar empresarial</a></li>
+          </ul>
+        </li>
+    
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#prototipo">Prototipo</a></li>
+        <li><a href="#estilos">Estilos</a></li>
+        <li><a href="#reflejo">Tu reflejo</a></li>
+        <li><a href="#testimonios">Testimonios</a></li>
+        <li><a href="#contacto">Contáctanos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio" class="inicio">
+    <div class="contenido-inicio">
+      <div class="texto">
+        <h1>Bienvenido a <span>Mir'IA</span></h1>
+        <p>El espejo inteligente que transforma tu rutina de cuidado personal.</p>
+  
+        <p>
+          Mir’IA combina tecnología avanzada, inteligencia artificial y un diseño moderno para 
+          personalizar tus rutinas de cuidado facial, recomendar productos adecuados a tu piel 
+          y fomentar hábitos sostenibles. 
+        </p>
+  
+        <a href="#caracteristicas" class="btn">Descubre más</a>
+      </div>
+  
+      <div class="imagen">
+        <img src="Espejo inteligente.png" alt="Espejo inteligente MirIA">
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="conocenos">
+    <h2>¿Quiénes somos?</h2>
+    <p> En Mir’Ia S.A.S. somos un equipo apasionado por la innovación, la tecnología y el bienestar personal. Nuestro proyecto nace de la necesidad de dar respuesta a un problema común en la vida de muchas personas: la dificultad de encontrar rutinas y productos de cuidado adecuados para cada tipo de piel en medio de una avalancha de información y opciones en el mercado.</p>
+    <p>Creemos firmemente que cada persona es única y que su cuidado también debe serlo. Por eso, desarrollamos un espejo inteligente que integra inteligencia artificial, sensores de análisis y una plataforma digital capaz de ofrecer recomendaciones personalizadas, prácticas y sostenibles.</p>
+    <p>Nuestra misión es clara: facilitar el acceso a un cuidado personal confiable, eficiente y consciente con el medio ambiente. Queremos empoderar a las personas para que comprendan mejor las necesidades de su piel, tomen decisiones informadas y adopten rutinas que realmente se adapten a su estilo de vida.</p>
+    <p>En Mir’Ia S.A.S. no solo apostamos por la innovación tecnológica, también por un compromiso social y ambiental. Creemos que la belleza y el bienestar deben ir de la mano con la sostenibilidad, por lo que buscamos promover un consumo más responsable y respetuoso con el planeta.</p>
+    <p>Más que un producto, Mir’Ia S.A.S. es una experiencia: un acompañante que combina ciencia, diseño y cuidado personal para ayudarte a descubrir y resaltar lo mejor de ti, sin dejar de lado el compromiso con el entorno.</p>
+    <p>Porque para nosotros, la verdadera innovación no solo mejora la vida de las personas, sino que también contribuye a construir un futuro más consciente y equilibrado.</p>
+  </section>
+
+  <section id="mision">
+    <h2>Misión</h2>
+    <p>Desarrollar soluciones tecnológicas que mejoren la salud y el bienestar personal, priorizando la sostenibilidad y la personalización.</p>
+  </section>
+
+  <section id="vision">
+    <h2>Visión</h2>
+    <p>Ser líderes en la creación de productos innovadores que promuevan el cuidado personal sostenible y personalizado.</p>
+  </section>
+
+  <section id="avatar">
+    <h2>Avatar Empresarial</h2>
+    <p>En Mir’Ia S.A.S, nuestro avatar empresarial es el Zorro Ártico, un animal que refleja la esencia de nuestra marca y los valores que queremos transmitir.</p>
+    <p>El Zorro Ártico es un símbolo de sabiduría, adaptación y resiliencia. Vive en ambientes fríos y extremos, pero aun así representa ternura, calidez y compañía. Estas características encajan con lo que buscamos lograr con Mir’Ia S.A.S. : ser un aliado cercano, confiable y protector en el camino del cuidado personal.</p>
+    <h3>Significado del Zorro Ártico para Mir’Ia S.A.S.</h3>
+    <ul class="list">
+      <li><strong>Pureza y frescura:</strong> inicio de nuevas rutinas saludables y cuidado natural de la piel.</li>
+      <li><strong>Inteligencia y astucia:</strong> innovación y uso de IA que hacen único al espejo inteligente.</li>
+      <li><strong>Adaptabilidad:</strong> como el Zorro Ártico en climas extremos, Mir’Ia se ajusta a cada piel y estilo de vida.</li>
+      <li><strong>Cercanía y ternura:</strong> genera confianza y empatía; el usuario se siente acompañado.</li>
+      <li><strong>Conciencia ambiental:</strong> recuerda proteger la naturaleza, alineado con la sostenibilidad de Mir’Ia.</li>
+    </ul>
+    <h3>Personalidad del avatar</h3>
+    <p>El Zorro Ártico es curioso, amigable, protector y sabio. Habla con dulzura, pero también inspira confianza y motivación. Es como ese amigo que siempre está listo para dar un buen consejo, acompañado de calidez y autenticidad.</p>
+    <h3>Ejemplo de cómo se comunicaría el avatar</h3>
+    <p>“Hola, soy Mir’Ia S.A.S., tu Zorro Ártico. Estoy aquí para guiarte en el cuidado de tu piel con inteligencia, ternura y responsabilidad. Porque cada detalle de ti es único y merece la mejor atención.”</p>
+
+  </section>
+
+  <section id="productos">
+    <h2>Productos Recomendados</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Catálogo</h3>
+        <a href="Catalogo Mir'Ia.pdf" target="_blank">📖 Ver catálogo</a>
+
+      </div>
+      <div class="card">
+        <h3>Maquillaje y Accesorios</h3>
+        <p>Recomendaciones basadas en tu tipo de piel y estilo.</p>
+      </div>
+      <div class="card">
+        <h3>Folleto y infografia</h3>
+        <a href="Folleto Mir'Ia.pdf" target="_blank">📖 Ver Folleto</a>
+        <a href="Infografia Mir'Ia.pdf" target="_blank">📖 Ver Infografia</a>
+      
+      </div>
+    </div>
+  </section>
+
+  <section id="prototipo">
+    <h2>Prototipo en Acción</h2>
+    <ul>
+      <li>Cómo funciona Mir’IA paso a paso.</li>
+      <li>Volante explicativo con especificaciones técnicas.</li>
+      <li>Video demostrativo en acción.</li>
+    </ul>
+  </section>
+
+  <section id="estilos">
+    <h2>Estilos para Ti</h2>
+    <ul>
+      <li>Peinados sugeridos según el tipo de rostro.</li>
+      <li>Looks de maquillaje recomendados.</li>
+    </ul>
+  </section>
+
+  <section id="reflejo">
+    <h2>Tu Reflejo en Acción</h2>
+    <ul>
+      <li>Fotos de usuarias reales.</li>
+      <li>Comparaciones de antes y después.</li>
+      <li>Mini videos y tips prácticos.</li>
+    </ul>
+  </section>
+
+  <section id="testimonios">
+    <h2>Testimonios</h2>
+    <p>Conoce la experiencia de quienes ya han usado Mir’IA y cómo transformó su manera de cuidarse.</p>
+  </section>
+
+  <section id="contacto">
+    <h2>Contáctanos</h2>
+    <p>¿Quieres más información? Escríbenos a través de:</p>
+    <ul>
+      <li>Email: contacto@miria.com</li>
+      <li>Redes sociales: Instagram, Facebook, TikTok</li>
+      <li>Ubícanos en Google Maps para visitar nuestro laboratorio</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Mir’IA - Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
